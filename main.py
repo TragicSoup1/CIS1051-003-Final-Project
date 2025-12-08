@@ -53,7 +53,7 @@ while True:
 	screen.blit(teto_image, (305, 380, 50, 50))
 
 	if game.game_over == True:
-		screen.blit(game_over_surface, (320, 450, 50, 50))
+		screen.blit(game_over_surface, (320, 360, 50, 50))
 
 	pygame.draw.rect(screen, Colors.dark_mustard, score_rect, 0, 10)
 	screen.blit(score_value_surface, score_value_surface.get_rect(centerx = score_rect.centerx, 
