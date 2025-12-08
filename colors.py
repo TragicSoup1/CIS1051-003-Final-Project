@@ -10,6 +10,9 @@ class Colors:
 	white = (255, 255, 255)
 	dark_blue = (44, 44, 127)
 	light_blue = (59, 85, 162)
+	mustard = (255, 217, 82)
+	dark_mustard = (226, 189, 72)
+	ruby_pink = (255, 80, 115)
 
 	@classmethod
 	def get_cell_colors(cls):

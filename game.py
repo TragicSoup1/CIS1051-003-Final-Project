@@ -13,6 +13,9 @@ class Game:
 		self.score = 0
 		self.rotate_sound = pygame.mixer.Sound("Sounds/tetris-gb-19-rotate-piece.ogg")
 		self.clear_sound = pygame.mixer.Sound("Sounds/tetris-gb-21-line-clear.ogg")
+		self.landed_sound = pygame.mixer.Sound("Sounds/tetris-gb-27-piece-landed.ogg")
+		self.clear_land_sound = pygame.mixer.Sound("Sounds/tetris-gb-26-piece-falling-after-line-clear.ogg")
+		self.game_end_sound = pygame.mixer.Sound("Sounds/tetris-gb-25-game-over.ogg")
 
 		pygame.mixer.music.load("Sounds/Tetoris_No_Lyrics.ogg")
 		pygame.mixer.music.play(-1)
@@ -48,6 +51,7 @@ class Game:
 		if self.block_inside() == False or self.block_fits() == False:
 			self.current_block.move(-1, 0)
 			self.lock_block()
+			self.landed_sound.play()
 
 	def lock_block(self):
 		tiles = self.current_block.get_cell_positions()
@@ -58,9 +62,11 @@ class Game:
 		rows_cleared = self.grid.clear_full_rows()
 		if rows_cleared > 0:
 			self.clear_sound.play()
+			self.clear_land_sound.play()
 			self.update_score(rows_cleared, 0)
 		if self.block_fits() == False:
 			self.game_over = True
+			self.game_end_sound.play()
 
 	def reset(self):
 		self.grid.reset()
@@ -95,8 +101,8 @@ class Game:
 		self.current_block.draw(screen, 11, 11)
 
 		if self.next_block.id == 3:
-			self.next_block.draw(screen, 255, 290)
+			self.next_block.draw(screen, 255, 240)
 		elif self.next_block.id == 4:
-			self.next_block.draw(screen, 255, 280)
+			self.next_block.draw(screen, 255, 230)
 		else:
-			self.next_block.draw(screen, 270, 270)
+			self.next_block.draw(screen, 270, 220)
