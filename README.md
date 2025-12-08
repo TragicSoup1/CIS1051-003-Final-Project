@@ -1,4 +1,4 @@
-## Tetoris
+# Tetoris
 
 A version of the popular game Tetris programmed in Python using PyGame-CE (Community Edition) and themed around the Synth-V Kasane Teto song "Tetoris" by Hiiragi Magnetite.
 This was made following a tutorial by "Programming With Nick" on YouTube: <a href="https://youtu.be/nF_crEtmpBo">Video Tutorial on YouTube.</a>
@@ -7,7 +7,7 @@ Link to overview Video: NOT YET RECORDED
 
 I def did not need different folders for every new version change... ;-;
 
-# ADDITIONAL NOTES:
+### ADDITIONAL NOTES:
 
 Truthfully, I was a bit too ambitious with my original goals. Figuring out how to implement custom graphics into the game where the tetrominos should be was extremely complicated. Quick drop was also not a feature I could manage to add, given the way that I had set up the game logic following the tutorial. Despite that, I still feel that this is a better outcome to leave out the new features of Tetris, since I never really moved on from playing the Game Boy version that came out in 1989. Among the other things I had failed to implement on time was the local leaderboard function.
 
