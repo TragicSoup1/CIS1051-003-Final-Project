@@ -2,6 +2,7 @@
 
 A version of the popular game Tetris programmed in Python using PyGame-CE (Community Edition) and themed around the Synth-V Kasane Teto song "Tetoris" by Hiiragi Magnetite.
 ___MAKE SURE TO RUN THIS FROM main.py AND LOWER VOLUME A BIT!___
+
 This was made following a tutorial by "Programming With Nick" on YouTube: <a href="https://youtu.be/nF_crEtmpBo">Video Tutorial on YouTube.</a>
 
 Link to overview Video: NOT YET RECORDED
