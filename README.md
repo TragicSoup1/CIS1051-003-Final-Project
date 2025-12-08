@@ -5,7 +5,7 @@ ___MAKE SURE TO RUN THIS FROM main.py AND LOWER VOLUME A BIT!___
 
 This was made following a tutorial by "Programming With Nick" on YouTube: <a href="https://youtu.be/nF_crEtmpBo">Video Tutorial on YouTube.</a>
 
-Link to overview Video: NOT YET RECORDED
+Link to overview Video: <a href="https://youtu.be/qKAofzV4q_A">Video Overview on YouTube.</a>
 
 I def did not need different folders for every new version change... ;-;
 
