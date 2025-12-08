@@ -20,7 +20,7 @@ clock = pygame.time.Clock()
 game = Game()
 
 GAME_UPDATE = pygame.USEREVENT
-pygame.time.set_timer(GAME_UPDATE, 200)
+pygame.time.set_timer(GAME_UPDATE, 240)
 
 while True:
 	for event in pygame.event.get():

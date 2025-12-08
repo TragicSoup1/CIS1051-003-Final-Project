@@ -2,11 +2,11 @@
 
 ## What will (likely) be the title of your project?
 
-Tetoris
+A Tragically Soupy Tetris
 
 ## In just a sentence or two, summarize your project. (E.g., "A website that lets you buy and sell stocks.")
 
-A version of Tetris with slightly modified graphics and an older version of the soundtrack that I like (and think is superior to the newer versions, or an 8-bit mix of the song Tetoris by Hiiragi Magnetite).
+A version of Tetris with slightly modified graphics and an older version of the soundtrack that I like (and think is superior to the newer versions).
 
 ## In a paragraph or more, detail your project. What will your software do? What features will it have? How will it be executed?
 
